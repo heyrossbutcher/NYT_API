@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>New York Times - Drag and Drop</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"><!-- font awesome -->
+</head>
+<body>
+	<header class="clearfix">
+		<div class="logo">
+			<img src="images/logo.png" title="New York Times logo">
+		</div>
+		<div class="search-bar">
+			<div class="heading">Top Stories</div>
+			<form class="search-form">
+		      <input type="text" class="q" placeholder="Search New York Times">  
+		      <input type="submit" value="Search">
+		    </form>
+	    </div>
+	    <div class="search-open">
+			<p class="searchControl"><i class="fa fa-search"></i></p>
+	    </div>
+		
+		
+	</header>
+
+	<div class="wrapper">
+		<!-- LOAD THE ARTICLES INTO THIS -->
+		<div class="article-wrapper">
+			
+		</div>
+		<!-- DROP THE ARTICLES IN HERE -->
+		<div class="drop-wrapper">
+			<div class="drop-article">
+				<div class="drop-article-space-close"><p class="close">X</p></div>
+				<!-- STYLING FOR THE ARTICLE -->
+				<div class="article-content">
+
+					<div class="catg"> 
+						<span class="category"></span> 
+					</div>
+
+					<div class="headline"> 
+						<span class="hl"></span> 
+					</div>
+
+					<div class="byline"> 
+						<span class="bl"></span> 
+					</div>
+
+					<div class="info clearfix">
+						<div class="pic clearfix"> 
+							<img class="picture clearfix">
+						</div>
+
+						<div class="descr">  
+							<span class="description"></span> 
+							<span class="created"><!-- THIS IS THE STYLE FOR THE DATE -->
+								<!-- <span class="date"></span>  -->
+							</span> 
+						</div>
+					</div>
+					<div><a class="artLink" target="_blank">Go to the article</a></div>
+				</div>	
+			</div>
+			<div class="zone">
+				<h3>Drag and drop an article here</h3>
+			</div><!-- ZONE ENDS -->
+		</div>
+	</div>
+
+	<!-- <footer>dcklnl</footer> -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+	<script src="scripts/script.js"></script>
+</body>
+</html>
